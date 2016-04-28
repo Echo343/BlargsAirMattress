@@ -1,4 +1,4 @@
-# BlargsAirMattess
+# BlargsAirMattress
 Sleeping Bag Mod for Minecraft
 
 This mod is a mod under the Blarg's Workshop suite. (Minecraft forum page coming later).
