@@ -1,0 +1,16 @@
+[
+{
+  "modid": "blarg_airmattressmod",
+  "name": "AirMattress",
+  "description": "Sleeping on an air mattress will not set your spawn point.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Echo343"],
+  "credits": "Special thanks to the minecraft modding community.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
