@@ -1,8 +1,6 @@
 # BlargsAirMattess
 Sleeping Bag Mod for Minecraft
 
-(code coming later, I'm short on time right now.)
-
 This mod is a mod under the Blarg's Workshop suite. (Minecraft forum page coming later).
 
 At the moment, all you need to know is this is a sleeping bag mod for minecraft (currently 1.7.10).  You can craft an air mattress, place it in the world like a bed, sleep, and have no fear of having your spawn point moved to the location of the air mattress.  This means you can break the air mattress after use and take it with you on your travels.
