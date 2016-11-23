@@ -3,8 +3,11 @@ package com.blargsworkshop.airmattress.Blocks;
 import java.util.Iterator;
 import java.util.Random;
 
+import com.blargsworkshop.airmattress.AirMattressMod;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockBed;
 import net.minecraft.block.BlockDirectional;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -19,11 +22,6 @@ import net.minecraft.util.IIcon;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraft.world.biome.BiomeGenBase;
-
-import com.blargsworkshop.airmattress.AirMattressMod;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 
 public class BlockAirMattress extends BlockDirectional {
 
@@ -76,7 +74,7 @@ public class BlockAirMattress extends BlockDirectional {
                 if (func_149976_c(i1))
                 {
                     EntityPlayer entityplayer1 = null;
-                    Iterator iterator = world.playerEntities.iterator();
+                    Iterator<?> iterator = world.playerEntities.iterator();
 
                     while (iterator.hasNext())
                     {

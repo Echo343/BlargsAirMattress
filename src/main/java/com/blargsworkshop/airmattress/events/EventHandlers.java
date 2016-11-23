@@ -1,15 +1,6 @@
 package com.blargsworkshop.airmattress.events;
 
 import java.util.HashMap;
-import java.util.Iterator;
-
-import net.minecraft.block.Block;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.player.EntityPlayerMP;
-import net.minecraft.util.ChatComponentText;
-import net.minecraft.util.ChunkCoordinates;
-import net.minecraftforge.event.entity.player.PlayerSleepInBedEvent;
-import net.minecraftforge.event.entity.player.PlayerWakeUpEvent;
 
 import com.blargsworkshop.airmattress.AirMattressMod;
 
@@ -17,6 +8,10 @@ import cpw.mods.fml.common.eventhandler.EventPriority;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.TickEvent.Phase;
 import cpw.mods.fml.common.gameevent.TickEvent.PlayerTickEvent;
+import net.minecraft.block.Block;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.util.ChunkCoordinates;
+import net.minecraftforge.event.entity.player.PlayerWakeUpEvent;
 
 public class EventHandlers {
 	static final HashMap<String, Boolean> flag = new HashMap<String, Boolean>();
