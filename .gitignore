@@ -62,10 +62,14 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 *.classpath
+*.project
 *.gradle
 *.zip
 eclipse/
 gradle/
+.settings/
+build/
+bin/
 gradlew
 gradlew.bat
 LICENSE-fml.txt
